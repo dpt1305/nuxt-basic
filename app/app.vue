@@ -8,6 +8,8 @@
       <li><NuxtLink to="/users/123">User</NuxtLink></li>
     </ul>
   </header>
-  <NuxtPage />
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
   <footer>Footer content</footer>
 </template>

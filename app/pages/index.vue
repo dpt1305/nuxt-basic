@@ -1,4 +1,7 @@
 <script setup lang="ts">
+definePageMeta({
+  layout: "default-layout",
+});
 import DefaultButton from "~/components/btn/DefaultButton.vue";
 </script>
 
